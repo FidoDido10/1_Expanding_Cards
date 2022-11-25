@@ -2,14 +2,14 @@
     box-sizing: content-box;
     color: aliceblue;
   } */
-  
+/*   
   body{
     display: flex;
     align-items: center;
     cursor: pointer;
     justify-content: center;
     background-color: aqua;
-  }
+  } */
   /* body {
     font-family: 'Muli', sans-serif;
     display: flex;
@@ -21,42 +21,18 @@
     color: aliceblue;
   } */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ============================ POSIBLE SOLUTION ============================ */
   
-/*   
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
   .container {
     display: flex;
+    /* background-color: aquamarine; */
     width: 90vw;
   }
   
@@ -93,7 +69,7 @@
   }
 
   
-  3. Hide certain cards on small screen devices.
+  /* 3. Hide certain cards on small screen devices. */
 
   @media (max-width: 480px) {
     .container {
@@ -105,4 +81,4 @@
       display: none;
     }
   }
-   */
+  
